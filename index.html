@@ -14,7 +14,7 @@
     		<p class='logo'>Fron-end test</p>
     	</div>
     </header>
-      	<main class="content">
+      	<main class='content'>
       	<div class='container'>
       	<header class='subheader'>
     		<h1>Latest News</h1>
@@ -24,13 +24,34 @@
     			<input class='form-input' type="text" id="form-link-input">
     		</form>
     	</header>
+
+    	<div class='modal js-modal'>
+    		<div class='modal-media'>
+    			<img src='http://www.creationmoments.com/sites/creationmoments.com/files/images/Jupiter%20Defies%20Naturalistic%20Explanation.jpg' alt='' />
+    			<h3 class='modal-media-title'>Jupiter</h3>
+    		</div>
+    		<div class='modal-content'>
+	    		<h3>About Me</h3>
+	    		<p>I'm a greatest planet in sun sytem. Don't like liquid water.</p>
+	    		<ol class='news'>
+	    			<li>
+	    				<a class='news-link' href='#'>Gas gigants</a>    				
+	    			</li>
+	    			<li class='news-item'>
+	    				<a class='news-link' href='#'>Having many children</a>
+	    			</li>
+	    		</ol>
+    		</div>
+    	</div>
+    	<div class='modal-overlay js-modal-overlay'></div>
+
     	<ol class='news'>
     		<li class='news-item'>
     			<a class='news-link' href='#'>Mercury</a>
     			<ul class='news-meta'>
     				<li class='news-meta-item'>
     				    <em>Discovered by:</em>
-    					<a href="#">A</a>
+    					<a class='js-show-modal' href="#">A</a>
     				</li>
     				<li class='news-meta-item'>
     					<a href="#">B</a>
